@@ -1,0 +1,51 @@
+body {
+    background: url(./assets/bg.png);
+}
+
+.navbar {
+    background-color: #170735!important;
+    color: white;
+}
+
+.content {
+	margin-top: 80px;
+}
+
+.navbar > .container > .navbar-brand {
+	color: white !important;
+}
+
+.item {
+	margin-bottom: 1rem;
+}
+
+.name {
+    /*font-weight: bold;*/
+    font-size: 18px;
+    padding: 6px 0px;
+    margin-bottom: 0rem;
+}
+
+.values {
+    font-style: italic;
+    font-size: 14px;
+    padding: 0px 0px;
+}
+
+p.descr {
+    font-size: 14px;
+    color: #6d6d6d;
+    margin-bottom: 0.5rem;
+}
+
+.badge-primary {
+    font-weight: normal;
+    float: right;
+    margin-left: 8px;
+}
+
+.badge-danger {
+    font-weight: normal;
+    float: right;
+    margin-left: 8px;
+}

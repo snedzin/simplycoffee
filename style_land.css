@@ -1,0 +1,82 @@
+body {
+    background: url(./assets/bg.png);
+}
+
+.jumbo {
+    margin-top: 120px;
+}
+
+p.descr {
+    font-size: 14px;
+    color: #585656;
+}
+
+h2.name {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.values {
+    font-style: italic;
+    font-size: 14px;
+
+}
+
+.navbar {
+    height: 50px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar > .container {
+    margin-top: 0px;
+}
+
+.navbar-brand {
+    font-size: 1rem;
+    color: #ff76df !important;
+}
+
+.navbar-brand > img {
+    height: 1.7em;
+}
+
+.navbar-collapse {
+    max-width: 400px !important;
+    float: right;
+}
+
+.navbar-nav {
+    font-size: .9rem;
+}
+
+.badge-primary, .badge-danger {
+    float: right;
+    margin-left: 8px;
+    font-weight: normal;
+}
+
+span.pink {
+    font-weight: bold;
+    color: #ff76df;
+}
+
+.jumbotron-fluid {
+    text-align: center;
+    background: transparent;
+}
+ .layer {
+  width: 100%;
+  object-fit: contain;
+  /*box-shadow: 0 0 88px 0 rgba(4, 3, 15, 0.2);*/
+}
+
+.lead {
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 0rem; 
+}
