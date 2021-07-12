@@ -16,8 +16,8 @@
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="https://trytix.ml/irene/style.css">
-<title> <!-- <?= $title ?> --> </title>
+<link rel="stylesheet" type="text/css" href="https://trytix.ml/style_land.css">
+<title> <?= $title ?> </title>
 </head>
 <body style="background: url(./assets/bgln.png); background-size: contain;">
 	<!--<nav class="navbar fixed-top navbar-light bg-light">
@@ -25,13 +25,13 @@
 	  	 <?= $button ?>   
 	</nav>-->
 
-<nav class="navbar navbar-light bg-light fixed-top">
-	<div class="container">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<div class="container">
+  <a class="navbar-brand" href="#"><img src="./assets/logo.png"> Wi-port</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -42,19 +42,12 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Pricing</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
       </li>
     </ul>
   </div>
-  </div>
+</div>
 </nav>
 	<div class="jumbotron jumbotron-fluid">
 	  <div class="container jumbo">
@@ -80,14 +73,10 @@
 	    </div>
 	  </div>
         <div class="row">
-      <div class="col-sm">
-        Одна из трёх колонок
-      </div>
-      <div class="col-sm">
-        Одна из трёх колонок
-      </div>
-      <div class="col-sm">
-        Одна из трёх колонок
+      <div class="col-sm-12">
+        <div class="container">
+
+        </div>
       </div>
     </div>
 	</div>
