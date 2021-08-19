@@ -82,7 +82,7 @@ include 'settings.php';
 			 			</div><hr>";
 		 }
 		 $title = 'Wi-Port official';
-		 include 'landing.php';
+		 include 'layout.php';
 
 	 }
 	?>
