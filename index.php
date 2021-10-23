@@ -81,7 +81,7 @@ include 'settings.php';
 			 				</div>
 			 			</div><hr>";
 		 }
-		 $title = 'Wi-Port official';
+		 $title = 'Проста кава крапельна';
 		 include 'layout.php';
 
 	 }
