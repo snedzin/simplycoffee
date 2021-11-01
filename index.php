@@ -82,7 +82,7 @@ include 'settings.php';
 			 			</div><hr>";
 		 }
 		 $title = 'Проста кава крапельна';
-		 include 'landing_wiport.php';
+		 include 'Coffee-site.html';
 
 	 }
 	?>
