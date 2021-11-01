@@ -63,7 +63,7 @@ include 'settings.php';
 		 $result = mysqli_query($link, $query) or die( mysqli_error($link) );
 		 $offer_id = mysqli_fetch_assoc($result);
 		 $offer_id = $offer_id['id'];
-		 //echo $offer_id;
+		 echo $offer_id;
 
 		 $query = "SELECT * FROM offer_items WHERE offer_id=$offer_id";
 		 $result = mysqli_query($link, $query) or die( mysqli_error($link) );
