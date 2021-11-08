@@ -17,7 +17,7 @@ include 'settings.php';
 		 $query = "SELECT * FROM users WHERE alias='$page'";
 		 $result = mysqli_query($link, $query) or die( mysqli_error($link) );
 		 $brand = mysqli_fetch_assoc($result);
-		 $brand = $brand['brand'];
+		 //$brand = $brand['brand'];
 
 		 $query = "SELECT * FROM offers WHERE alias='$user'";
 		 $result = mysqli_query($link, $query) or die( mysqli_error($link) );
